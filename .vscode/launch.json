@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to server",
+            "port": 9229,
+            "address": "localhost",
+            "remoteRoot": "/app/build",
+            "localRoot": "${workspaceFolder}/build/",
+            "protocol": "inspector",
+            "restart": true,
+            "sourceMaps": true,
+            "type": "node",
+            "request": "attach",
+        },
+    ]
+}

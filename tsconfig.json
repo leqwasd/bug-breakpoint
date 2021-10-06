@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "lib": ["es2017", "esnext.asynciterable"],
+        "typeRoots": ["./node_modules/@types"],
+        "jsx": "react",
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "sourceMap": true,
+        "outDir": "./build",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true
+    },
+    "include": ["./src/**/*", ".env"],
+    "exclude": ["node_modules"]
+}
